@@ -13,12 +13,14 @@ Week 4 - Homework
     - Max lebih besar array ganjil
     - Total memiliki nilai sama antara array genap dan ganjil
     - Rata rata lebih besar array ganjil
-Output dari aplikasi:
+
+## Output dari aplikasi:
     - Array dengan jumlah index 100
     - Array genap dengan jumlah index 50
     - Array ganjil dengan jumlah index 50
     - Min, Max, Total, Rata rata pada setiap array (genap dan ganjil)
     - Perbandingan nilai min, max, total dan rata rata
+    
 ## Catatan :
 - Dilarang menggunakan fungsi bawaan untuk min, max, total dan rata rata
 - Buatlah menjadi beberapa fungsi agar kode dapat digunakan kembali
