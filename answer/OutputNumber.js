@@ -55,15 +55,15 @@ const totalEvenarray = totalValue(evenIndexarr);
 const totalOddarray = totalValue(oddIndexarr);
 
 if (totalEvenarray > totalOddarray) {
-    console.log("Even Array average value is :", totalEvenarray, 
-    "\nOdd Array average value is :", totalOddarray, 
-    "\nSo Even Array average value is Bigger");
+    console.log("Even Array Total value is :", totalEvenarray, 
+    "\nOdd Array Total value is :", totalOddarray, 
+    "\nSo Even Array Total value is Bigger");
 } else if (totalEvenarray < totalOddarray) {
-    console.log("Even Array average value is :", totalEvenarray, 
-    "\nOdd Array average value is :", totalOddarray, 
-    "\nSo Odd Array average value is Bigger");
+    console.log("Even Array Total value is :", totalEvenarray, 
+    "\nOdd Array Total value is :", totalOddarray, 
+    "\nSo Odd Array Total value is Bigger");
 } else {
-    console.log("Even Array average value is :", totalEvenarray, 
-    "\nOdd Array average value is :", totalOddarray, 
-    "\nSo Both Array average value is equal");
+    console.log("Even Array Total value is :", totalEvenarray, 
+    "\nOdd Array Total value is :", totalOddarray, 
+    "\nSo Both Array Total value is equal");
 }
