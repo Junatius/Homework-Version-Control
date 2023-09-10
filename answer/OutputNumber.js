@@ -13,25 +13,30 @@ console.log("Odd Index Array : ", oddIndexarr, "\n");
 evenIndexarr.sort((a, b) => a - b);
 oddIndexarr.sort((a, b) => a - b);
 
+const minNumber1 = evenIndexarr[0];
+const maxNumber1 = evenIndexarr[evenIndexarr.length - 1];
+const minNumber2 = oddIndexarr[0];
+const maxNumber2 = oddIndexarr[oddIndexarr.length - 1];
+
 console.log("Answer for Expected Output Number 4 & 5");
-if (evenIndexarr[0] > oddIndexarr[0]) {
+if (minNumber1 > minNumber2) {
     console.log("Even Array minimum value is bigger than Odd Array with comparison :"
-    , evenIndexarr[0], ">", oddIndexarr[0], "\n");
-} else if (evenIndexarr[0] < oddIndexarr[0]) {
+    , minNumber1, ">", minNumber2, "\n");
+} else if (minNumber1 < minNumber2) {
     console.log("Odd Array minimum value is bigger than Even Array with comparison :"
-    , oddIndexarr[0], ">", evenIndexarr[0], "\n");
+    , minNumber2, ">", minNumber1, "\n");
 } else {
-    console.log("Both minimum value of Array is same with", evenIndexarr[0], "Value\n");
+    console.log("Both minimum value of Array is same with", minNumber1, "Value\n");
 }
 
-if (evenIndexarr[evenIndexarr.length - 1] > oddIndexarr[oddIndexarr.length - 1]) {
+if (maxNumber1 > maxNumber2) {
     console.log("Even Array maximum value is bigger than Odd Array with comparison :"
-    , evenIndexarr[evenIndexarr.length - 1], ">", oddIndexarr[oddIndexarr.length - 1], "\n");
-} else if (evenIndexarr[evenIndexarr.length - 1] < oddIndexarr[oddIndexarr.length - 1]) {
+    , maxNumber1, ">", maxNumber2, "\n");
+} else if (maxNumber1 < maxNumber2) {
     console.log("Odd Array maximum value is bigger than Even Array with comparison :"
-    , oddIndexarr[oddIndexarr.length - 1], ">", evenIndexarr[evenIndexarr.length - 1], "\n");
+    , maxNumber2, ">", maxNumber1, "\n");
 } else {
-    console.log("Both maximum value of Array is same with", evenIndexarr[evenIndexarr.length - 1], "Value\n");
+    console.log("Both maximum value of Array is same with", maxNumber1, "Value\n");
 }
 
 const averageEvenarray = averageValue(evenIndexarr);
